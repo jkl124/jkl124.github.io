@@ -4,100 +4,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<style>
-	a{text-decoration: none;color:black;}
-	body{margin:0px;font-family: 'Open Sans', sans-serif;font-size:14px;}
-	h1{text-align: center;}
-	ul{list-style-type: none;}
-	.button {background-color: #f5f5f5;
-    color: #666666;
-    padding: 25px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    margin: 4px 2px;
-    cursor: pointer;}
-	.main{w}
-	.side{width:225px;height:900px;float:left;background-color: #333;color:whitesmoke;}
-	.side ul{padding-left:10px;}
-	.side ul li a {color:whitesmoke;}
-	.top{width:225px;height:60px;}
-	.top p{text-align: center;font-size: 2em;}
-	@media (max-width: 600px) {
-  	.side {display: none;}
-	}
+
 	</style>
 </head>
 <body>
-<!-- 
-	<a href='' target='_blank'></a> 
-	<ul>
-		<li><a href='' target='_blank'></a></li>
-	</ul>
-	<a href='' target='_blank'><div class="button"></div></a>
--->
-	<div class='side'>  
-		<div class='top'>
-	<p>Hockeyup</p>
-	</div>
-	<ul>
-		<li>National Hockey League (NHL)
-		<ul>
-			<li><a href='http://www.nhl.com/' target='_blank'>Home</a></li>
-			<li><a href='http://www.nhl.com/ice/scores.htm?#navid=nav-scr-main' target='_blank'>Scores</a></li>
-			<li><a href='http://www.nhl.com/ice/standings.htm' target='_blank'>Standings</a></li>
-			<li><a href='http://www.nhl.com/ice/schedulebyweek.htm?navid=nav-sch-main#' target='_blank'>Stats</a></li>
-			<li><a href='http://www.nhl.com/stats/?navid=nav-sts-main#' target='_blank'>Players</a></li>
-			<li><a href='http://www.nhl.com/ice/playersearch.htm?navid=nav-ply-plyrs#' target='_blank'>Teams</a></li>
-			<li><a href='http://www.nhl.com/ice/newsindex.htm?navid=nav-nws-main#' target='_blank'>News</a></li>
-			<li><a href='http://video.nhl.com/videocenter/console?hdpid=35&intcmpid=nav-video-main' target='_blank'>Video</a></li>
-		</ul>
-		</li>
-		
 
-		<li>News
-			<ul>
-			<li><a href='http://espn.go.com/nhl/' target='_blank'>ESPN</a></li>
-			<li><a href='http://sports.yahoo.com/blogs/nhl-puck-daddy/' target='_blank'>Puck Daddy</a></li>
-			<li><a href='https://www.reddit.com/r/hockey' target='_blank'>Reddit</a></li>
-			<li><a href='http://www.tsn.ca/nhl' target='_blank'>TSN</a></li>
-			<li><a href='http://sports.yahoo.com/nhl/' target='_blank'>Yahoo!</a></li>
-		</ul>
-	</li>
-		<li>Statistics
-			<ul>
-			<li><a href='http://www.hockeydb.com/' target='_blank'>HockeyDB</a></li>
-			<li><a href='http://www.hockey-reference.com/' target='_blank'>Hockey Reference</a></li>
-			<li><a href='http://war-on-ice.com/' target='_blank'>War On Ice</a></li>
-		</ul>
-	</li>
-</ul>
-	</div>
-
-	<div class="main">
-		<a href='http://www.nhl.com/ice/scores.htm?#navid=nav-scr-main' target='_blank' class="button">NHL</a>
-		<a href='http://en.khl.ru/calendar/' target='_blank' class="button">KHL</a>
-		<a href='http://theahl.com/stats/schedule.php?refresh=3' target='_blank' class="button">AHL</a>
-		<a href='http://thesphl.stats.pointstreak.com/scoreboard.html?leagueid=215' target='_blank' class="button">SPHL</a>
-		<a href='http://theahl.com/stats/schedule.php?refresh=3' target='_blank' class="button">AHL</a>
-	</div>
-	<div class="footer">
-		<p>Hockeyup.</p>
-	</div>
-	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
-  <script src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/jquery.rss.min.js"></script>
-  <script>
-jQuery(function($) {
-$('#y').rss(
-'http://sports.yahoo.com/nhl/rss.xml',{
-limit: 10,
-entryTemplate: '<a href="{url}">· {title}</a><br>'
-})
-
-
-})
-
-</script>
 </body>
 </html>
